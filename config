@@ -205,6 +205,7 @@ exec xrandr --output HDMI-1 --mode 1920x1080 --rate 60 --scale 1x1
 exec feh --bg-fill ~/.config/i3/wallpaper.png
 
 exec --no-startup-id dunst
+exec --no-startup-id nm-applet
 exec --no-startup-id picom
 exec --no-startup-id redshift
 exec --no-startup-id dex-a -s /etc/xdg/autostart/:~/.config/autostart/
