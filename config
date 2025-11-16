@@ -17,6 +17,8 @@ bindsym $mod+q kill
 bindsym $mod+space exec "rofi -show combi -modi window,run,combi -combi-modi window,run"
 #bindsym ctrl+space exec dmenu_run
 
+bindsym Print exec --no-startup-id flameshot gui -c -p ~/Pictures/Screenshots
+
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
