@@ -8,6 +8,8 @@ floating_modifier $mod
 # start a terminal
 set $term alacritty
 bindsym $mod+t exec $term
+bindsym $mod+e exec thunar
+bindsym $mod+b exec firefox
 
 # kill focused window
 bindsym $mod+q kill
