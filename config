@@ -1,3 +1,6 @@
+# sudo pacman -S networkmanager network-manager-applet nm-connection-editor
+# sudo systemctl enable NetworkManager --now
+
 set $mod Mod4
 font pango:Hack 9
 floating_modifier $mod
