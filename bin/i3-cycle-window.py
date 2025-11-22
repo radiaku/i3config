@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+
+# sudo pacman -S python-pip
+# sudo pacman -S python-i3ipc
+# chmod +x ~/.config/i3/bin/i3-cycle-window.py
+# chmod +x ~/.config/i3/bin/i3-switch-windows.py
+
 import i3ipc
 
 i3 = i3ipc.Connection()
