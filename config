@@ -8,15 +8,21 @@ floating_modifier $mod
 # start a terminal
 set $term alacritty
 bindsym $mod+t exec $term
-bindsym $mod+e exec thunar
+bindsym $mod+e exec nemo
 bindsym $mod+b exec firefox
 
 # kill focused window
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-#bindsym ctrl+space exec rofi -show run
-bindsym $mod+space exec "rofi -show combi -modi window,run,combi -combi-modi window,run"
+# bindsym $mod+space exec --no-startup-id "rofi -show combi -modi window,run,combi -combi-modi window,run"
+bindsym $mod+space exec --no-startup-id \
+"rofi -show combi -modi drun,run,window,combi -combi-modi drun,run,window"
+# bindsym $mod+space exec --no-startup-id "rofi -show combi -modi window,run,combi -combi-modi window,run"
+# bindsym $mod+space exec notify-send "SPACE TRIGGERED"
+
+
+
 #bindsym ctrl+space exec dmenu_run
 
 bindsym Print exec --no-startup-id flameshot gui -c -p ~/Pictures/Screenshots
