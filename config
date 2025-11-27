@@ -222,7 +222,10 @@ exec --no-startup-id nm-applet
 exec --no-startup-id picom
 exec --no-startup-id redshift
 exec --no-startup-id dex-a -s /etc/xdg/autostart/:~/.config/autostart/
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# sudo apt install xfce4-polkit
+exec --no-startup-id lxqt-policykit-agent
 
 bindsym $mod+Tab exec --no-startup-id ~/.config/i3/bin/i3-switch-windows.py
 bindsym Mod1+Tab exec --no-startup-id ~/.config/i3/bin/i3-cycle-window.py
