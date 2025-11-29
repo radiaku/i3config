@@ -2,7 +2,7 @@
 # sudo systemctl enable NetworkManager --now
 
 set $mod Mod4
-font pango:Hack 9
+font pango:Iosevka Nerd Font Mono 12
 floating_modifier $mod
 
 # start a terminal
