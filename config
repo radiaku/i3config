@@ -225,6 +225,8 @@ exec --no-startup-id dex-a -s /etc/xdg/autostart/:~/.config/autostart/
 # exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # sudo apt install xfce4-polkit
+# sudo pacman -S xfce4-polkit
+# sudo pacman -S lxqt-policykit 
 exec --no-startup-id lxqt-policykit-agent
 
 bindsym $mod+Tab exec --no-startup-id ~/.config/i3/bin/i3-switch-windows.py
